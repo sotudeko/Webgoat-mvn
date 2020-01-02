@@ -1,0 +1,5368 @@
+{
+  "applicationId" : "webgoat-ide",
+  "scanId" : "102f07d5c7b44459bfe570592030666e",
+  "reportHtmlUrl" : "http://localhost:8070/ui/links/application/webgoat-ide/report/102f07d5c7b44459bfe570592030666e",
+  "reportPdfUrl" : "http://localhost:8070/ui/links/application/webgoat-ide/report/102f07d5c7b44459bfe570592030666e/pdf",
+  "reportDataUrl" : "http://localhost:8070/api/v2/applications/webgoat-ide/reports/102f07d5c7b44459bfe570592030666e/raw",
+  "policyAction" : "Failure",
+  "policyEvaluationResult" : {
+    "alerts" : [ {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "4f448b136de644c583236cf0c44148cf",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2017-5648 with severity >= 9 (severity = 9.1)",
+              "reference" : {
+                "value" : "CVE-2017-5648",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "e7127d56113b4cbbab14d8a424357be2",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2018-1270 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "CVE-2018-1270",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "058ec48285944054b339ef3f1324d0ae",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2019-17563 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "CVE-2019-17563",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "b037be22065443c6a5a7c4e51a477fc9",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability sonatype-2019-0115 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "sonatype-2019-0115",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "7c756e2bf0eb4d078884294abdb25917",
+        "policyName" : "Security-Low",
+        "threatLevel" : 3,
+        "policyViolationId" : "b9befe978acc42818457297314d7158b",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "2fe411e55100481ea23a38c313d057c7",
+            "constraintName" : "Low risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 0",
+              "reason" : "Found security vulnerability CVE-2013-2071 with severity >= 0 (severity = 2.6)",
+              "reference" : {
+                "value" : "CVE-2013-2071",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 4",
+              "reason" : "Found security vulnerability CVE-2013-2071 with severity < 4 (severity = 2.6)",
+              "reference" : {
+                "value" : "CVE-2013-2071",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "eaa4dd27b85846789dd9bc3d82562ab5",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2014-0050 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2014-0050",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2014-0050 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2014-0050",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "27f6b1a855cc49789eb7e075e9091ba6",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2014-0230 with severity >= 7 (severity = 7.8)",
+              "reference" : {
+                "value" : "CVE-2014-0230",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2014-0230 with severity < 9 (severity = 7.8)",
+              "reference" : {
+                "value" : "CVE-2014-0230",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "2df62892ec194b2ab6941e7485e0a25e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2015-5346 with severity >= 7 (severity = 8.1)",
+              "reference" : {
+                "value" : "CVE-2015-5346",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2015-5346 with severity < 9 (severity = 8.1)",
+              "reference" : {
+                "value" : "CVE-2015-5346",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "0222faf2645149909f91744cbdda1bd4",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-0714 with severity >= 7 (severity = 8.8)",
+              "reference" : {
+                "value" : "CVE-2016-0714",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-0714 with severity < 9 (severity = 8.8)",
+              "reference" : {
+                "value" : "CVE-2016-0714",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "ea4c9fd08cb94ecca6408b29ed665276",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-3092 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-3092",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-3092 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-3092",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "9c9fa350cd4d4bb0a66915db2d21cac1",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-5018 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-5018",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-5018 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-5018",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "90d297d578c449329450012984ec4a7c",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-6796 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-6796",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-6796 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-6796",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "b48b83f3114549b5912bf562b07789a3",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-6797 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-6797",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-6797 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-6797",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "9484c66494c2476dbfdec86ed8e7d95d",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-6816 with severity >= 7 (severity = 7.1)",
+              "reference" : {
+                "value" : "CVE-2016-6816",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-6816 with severity < 9 (severity = 7.1)",
+              "reference" : {
+                "value" : "CVE-2016-6816",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "bbe5105d14d9429a834b3cca2047e2e3",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-8745 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-8745",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-8745 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-8745",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "18f0d82b5e0a4e5db19db18a1fb7e98a",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2017-12615 with severity >= 7 (severity = 8.1)",
+              "reference" : {
+                "value" : "CVE-2017-12615",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2017-12615 with severity < 9 (severity = 8.1)",
+              "reference" : {
+                "value" : "CVE-2017-12615",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "9ac61c89b5f54f14a39c032410a616f2",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2017-5647 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2017-5647",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2017-5647 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2017-5647",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "19f47edb195f42fbb4e6ef95d3d1352e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2017-5664 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2017-5664",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2017-5664 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2017-5664",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "2fdf5eef5f9b47b18e201c4d326e9c7f",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2018-1272 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-1272",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2018-1272 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-1272",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "2fd4903ea6b24cb18cd5461294ac0336",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2018-1336 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-1336",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2018-1336 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-1336",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "c6bcda8b6a544160b8d31bc9ef85d240",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2018-15756 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-15756",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2018-15756 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-15756",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "94ae52a1fbc743429d14163d36fb8077",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2019-0232 with severity >= 7 (severity = 8.1)",
+              "reference" : {
+                "value" : "CVE-2019-0232",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2019-0232 with severity < 9 (severity = 8.1)",
+              "reference" : {
+                "value" : "CVE-2019-0232",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "bdd40486f13345f58ba645611be001b1",
+        "policyName" : "Component-Similar",
+        "threatLevel" : 7,
+        "policyViolationId" : "da661e0f661e4b8991d31cb33fb1037f",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d917e49466944ced96b84906ef475cdf",
+            "constraintName" : "Unknown modification to component",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "MatchState",
+              "conditionIndex" : 0,
+              "summary" : "Match State is similar",
+              "reason" : "Match state was 'Similar'",
+              "reference" : null,
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "Coordinates",
+              "conditionIndex" : 0,
+              "summary" : "Coordinates do not match maven:org.eclipse.*:*:*:*:*",
+              "reason" : "Coordinates were za.co.absa.spline : spline-web : jar : exec-war : 0.3.9 (do not match org.eclipse.* : * : * : * : *)",
+              "reference" : null,
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "dbcf3fb449c844838c0c7dba6070ab9a",
+        "policyName" : "Component-Unknown",
+        "threatLevel" : 2,
+        "policyViolationId" : "2866184f5e0d46b6a9260692d1f4d434",
+        "componentFacts" : [ {
+          "componentIdentifier" : null,
+          "hash" : "bf89ca3e79feea648719",
+          "constraintFacts" : [ {
+            "constraintId" : "62c85c5226094c9e85bddf5f3b10faca",
+            "constraintName" : "Unknown 3rd party component",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "MatchState",
+              "conditionIndex" : 0,
+              "summary" : "Match State is unknown",
+              "reason" : "Match state was 'Unknown'",
+              "reference" : null,
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "Proprietary",
+              "conditionIndex" : 0,
+              "summary" : "Proprietary is false",
+              "reason" : "Component does not contain proprietary packages",
+              "reference" : null,
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : null
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "25413f7f8a30496c9086460ab7045ca8",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2010-5312 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2010-5312",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2010-5312 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2010-5312",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "497ebe291f6f4aeb8b36c0183d71d635",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2012-6662 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2012-6662",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2012-6662 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2012-6662",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "149382c2356d451c9275b68a5b2b3f6d",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2013-4286 with severity >= 4 (severity = 5.8)",
+              "reference" : {
+                "value" : "CVE-2013-4286",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2013-4286 with severity < 7 (severity = 5.8)",
+              "reference" : {
+                "value" : "CVE-2013-4286",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "1a450757c81f474e944164cd19c2566e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2013-4322 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2013-4322",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2013-4322 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2013-4322",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "f09e9a06028b4856b47aef3c8f15e4fb",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2013-4444 with severity >= 4 (severity = 6.8)",
+              "reference" : {
+                "value" : "CVE-2013-4444",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2013-4444 with severity < 7 (severity = 6.8)",
+              "reference" : {
+                "value" : "CVE-2013-4444",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "a5975261f40f4151a12d539524de076b",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2013-4590 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2013-4590",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2013-4590 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2013-4590",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "c783d45f18a54ef9aa8580efaeb94d3a",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2014-0075 with severity >= 4 (severity = 5.0)",
+              "reference" : {
+                "value" : "CVE-2014-0075",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2014-0075 with severity < 7 (severity = 5.0)",
+              "reference" : {
+                "value" : "CVE-2014-0075",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "ff971cbb43fa4eb6becf18dbfff27544",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2014-0096 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2014-0096",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2014-0096 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2014-0096",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "5f03f0a6ea93485da4cc8f493a192aff",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2014-0099 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2014-0099",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2014-0099 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2014-0099",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "76fd4977dbce454c9bf9a6d7a30808ea",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2014-0119 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2014-0119",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2014-0119 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2014-0119",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "b6a6979e611f450f9b1b12d6f15b08cd",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2014-0227 with severity >= 4 (severity = 6.4)",
+              "reference" : {
+                "value" : "CVE-2014-0227",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2014-0227 with severity < 7 (severity = 6.4)",
+              "reference" : {
+                "value" : "CVE-2014-0227",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "6cf0e62b4ca6482f86b85844562a7187",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2014-7810 with severity >= 4 (severity = 5.0)",
+              "reference" : {
+                "value" : "CVE-2014-7810",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2014-7810 with severity < 7 (severity = 5.0)",
+              "reference" : {
+                "value" : "CVE-2014-7810",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "366fdf70bdbf485f918fb357c4394046",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2015-5345 with severity >= 4 (severity = 5.3)",
+              "reference" : {
+                "value" : "CVE-2015-5345",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2015-5345 with severity < 7 (severity = 5.3)",
+              "reference" : {
+                "value" : "CVE-2015-5345",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "6ef108da2d714c089f0e762d0026a00b",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2016-0706 with severity >= 4 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2016-0706",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2016-0706 with severity < 7 (severity = 4.3)",
+              "reference" : {
+                "value" : "CVE-2016-0706",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "22fce57a21b14fdc9e4002ef6622ff01",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2016-0762 with severity >= 4 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2016-0762",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2016-0762 with severity < 7 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2016-0762",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "ee6f5eb07c9346bab3d5ac6a5afe1f6e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2016-0763 with severity >= 4 (severity = 6.3)",
+              "reference" : {
+                "value" : "CVE-2016-0763",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2016-0763 with severity < 7 (severity = 6.3)",
+              "reference" : {
+                "value" : "CVE-2016-0763",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "44d9aa2147554f4a845515410c88f88f",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2016-6794 with severity >= 4 (severity = 5.3)",
+              "reference" : {
+                "value" : "CVE-2016-6794",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2016-6794 with severity < 7 (severity = 5.3)",
+              "reference" : {
+                "value" : "CVE-2016-6794",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "90b58ce2059947f998bb282ffeee3f25",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2018-11039 with severity >= 4 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-11039",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2018-11039 with severity < 7 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-11039",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "6d9c46ff97574b57bf9d9cca53574917",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2018-11040 with severity >= 4 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-11040",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2018-11040 with severity < 7 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-11040",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "16fda81e03d94384b893d72b20376a8e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2018-1257 with severity >= 4 (severity = 6.5)",
+              "reference" : {
+                "value" : "CVE-2018-1257",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2018-1257 with severity < 7 (severity = 6.5)",
+              "reference" : {
+                "value" : "CVE-2018-1257",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "7fe7cafc2bda443e9b4a42b04524f7ce",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2018-1271 with severity >= 4 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-1271",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2018-1271 with severity < 7 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-1271",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "f583299453fe4cb0ba2cdee045516953",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2018-1304 with severity >= 4 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-1304",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2018-1304 with severity < 7 (severity = 5.9)",
+              "reference" : {
+                "value" : "CVE-2018-1304",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "bf71c0a733a84561a893fd17fee54f57",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2018-1305 with severity >= 4 (severity = 6.5)",
+              "reference" : {
+                "value" : "CVE-2018-1305",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2018-1305 with severity < 7 (severity = 6.5)",
+              "reference" : {
+                "value" : "CVE-2018-1305",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "6bbd4320c9d9484cad2ff9f4e3be7b15",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability CVE-2019-0221 with severity >= 4 (severity = 6.1)",
+              "reference" : {
+                "value" : "CVE-2019-0221",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability CVE-2019-0221 with severity < 7 (severity = 6.1)",
+              "reference" : {
+                "value" : "CVE-2019-0221",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "4e1e31f400904395b61a4987762df55e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability sonatype-2012-0009 with severity >= 4 (severity = 6.1)",
+              "reference" : {
+                "value" : "sonatype-2012-0009",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability sonatype-2012-0009 with severity < 7 (severity = 6.1)",
+              "reference" : {
+                "value" : "sonatype-2012-0009",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "87f842173266480682e7119e801ae0a4",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability sonatype-2012-0050 with severity >= 4 (severity = 5.3)",
+              "reference" : {
+                "value" : "sonatype-2012-0050",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability sonatype-2012-0050 with severity < 7 (severity = 5.3)",
+              "reference" : {
+                "value" : "sonatype-2012-0050",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "170d9ae70d1045fa828d1f2d120caef3",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability sonatype-2016-0108 with severity >= 4 (severity = 6.1)",
+              "reference" : {
+                "value" : "sonatype-2016-0108",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability sonatype-2016-0108 with severity < 7 (severity = 6.1)",
+              "reference" : {
+                "value" : "sonatype-2016-0108",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "ec331d98387741d7abf859f299fbb516",
+        "policyName" : "Security-Medium",
+        "threatLevel" : 7,
+        "policyViolationId" : "68007782bcde4c569cc99db7b7ece73b",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spline-web",
+              "classifier" : "exec-war",
+              "extension" : "jar",
+              "groupId" : "za.co.absa.spline",
+              "version" : "0.3.9"
+            }
+          },
+          "hash" : "c72c5924c74a7f85488a",
+          "constraintFacts" : [ {
+            "constraintId" : "d430d30ec99c423094f41e9e91bac677",
+            "constraintName" : "Medium risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 4",
+              "reason" : "Found security vulnerability sonatype-2017-0651 with severity >= 4 (severity = 5.0)",
+              "reference" : {
+                "value" : "sonatype-2017-0651",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 7",
+              "reason" : "Found security vulnerability sonatype-2017-0651 with severity < 7 (severity = 5.0)",
+              "reference" : {
+                "value" : "sonatype-2017-0651",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "za.co.absa.spline"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spline-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Extension",
+              "value" : "jar"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Classifier",
+              "value" : "exec-war"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "0.3.9"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "969b2dcc1dde4ac2b652d330134406cf",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "commons-fileupload",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "commons-fileupload",
+              "version" : "1.2.2"
+            }
+          },
+          "hash" : "1e48256a2341047e7d72",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2016-1000031 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "CVE-2016-1000031",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.2.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "92c0cbd601f14aa2b06b641ed74edd64",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "hsqldb",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "hsqldb",
+              "version" : "1.8.0.7"
+            }
+          },
+          "hash" : "20554954120b3cc9f088",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2007-4575 with severity >= 9 (severity = 9.3)",
+              "reference" : {
+                "value" : "CVE-2007-4575",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "hsqldb"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "hsqldb"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.8.0.7"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "a7070b3fd2774255a51f5c8f38b9b263",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "a-name",
+            "coordinates" : {
+              "name" : "org.webjars jquery",
+              "qualifier" : "",
+              "version" : "1.10.2"
+            }
+          },
+          "hash" : "37081687a930b9a4a29c",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability sonatype-2019-0115 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "sonatype-2019-0115",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Name",
+              "value" : "org.webjars jquery"
+            }, {
+              "value" : " "
+            }, {
+              "field" : "Version",
+              "value" : "1.10.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "3ac705d05dd74d3287ab878e302553ab",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "commons-collections",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "apache-collections",
+              "version" : "3.1"
+            }
+          },
+          "hash" : "40fb048097caeacdb11d",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability sonatype-2015-0002 with severity >= 9 (severity = 9.0)",
+              "reference" : {
+                "value" : "sonatype-2015-0002",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "apache-collections"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "commons-collections"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.1"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "1553c41d91724484ae55a6b00f8d7588",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "log4j",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "Log4j",
+              "version" : "1.2.17"
+            }
+          },
+          "hash" : "5af35056b4d257e4b64b",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2019-17571 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "CVE-2019-17571",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "Log4j"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "log4j"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.2.17"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "9cf0687538404e76b88a9eaee28c177e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "jackson-databind",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "com.fasterxml.jackson.core",
+              "version" : "2.0.4"
+            }
+          },
+          "hash" : "cf05e1449bccc5dae87b",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2017-7525 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "CVE-2017-7525",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "com.fasterxml.jackson.core"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "jackson-databind"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "2.0.4"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "02574581071640e29f5b1704090fa555",
+        "policyName" : "Security-Critical",
+        "threatLevel" : 10,
+        "policyViolationId" : "d76182465556447683f4e15d78c3c9b0",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-expression",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "edde2efe828f5890f57a",
+          "constraintFacts" : [ {
+            "constraintId" : "85e4e6bf8b36420d89e19b209150e310",
+            "constraintName" : "Critical risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 9",
+              "reason" : "Found security vulnerability CVE-2018-1270 with severity >= 9 (severity = 9.8)",
+              "reference" : {
+                "value" : "CVE-2018-1270",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-expression"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "1917f5c6efec41c88f2595ba0381d662",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "a-name",
+            "coordinates" : {
+              "name" : "org.webjars angularjs",
+              "qualifier" : "",
+              "version" : "1.2.16"
+            }
+          },
+          "hash" : "16e2da53f9d2c1744211",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability sonatype-2014-0043 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "sonatype-2014-0043",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability sonatype-2014-0043 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "sonatype-2014-0043",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Name",
+              "value" : "org.webjars angularjs"
+            }, {
+              "value" : " "
+            }, {
+              "field" : "Version",
+              "value" : "1.2.16"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "da1d415b581c426eae60b58e781d6472",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-security-web",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework.security",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "197d803ab63dd3523d9d",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-9879 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-9879",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-9879 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-9879",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework.security"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-security-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "87d87c4c8dc14bae9e515f1fe4aa4c76",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-security-web",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework.security",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "197d803ab63dd3523d9d",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability sonatype-2017-0641 with severity >= 7 (severity = 7.1)",
+              "reference" : {
+                "value" : "sonatype-2017-0641",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability sonatype-2017-0641 with severity < 9 (severity = 7.1)",
+              "reference" : {
+                "value" : "sonatype-2017-0641",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework.security"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-security-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "2a4fd83b4df74f49a467375bd5b564e6",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "commons-fileupload",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "commons-fileupload",
+              "version" : "1.2.2"
+            }
+          },
+          "hash" : "1e48256a2341047e7d72",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2013-2186 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2013-2186",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2013-2186 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2013-2186",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.2.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "1deb5651d634456d8ee02a443a7b6efe",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "commons-fileupload",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "commons-fileupload",
+              "version" : "1.2.2"
+            }
+          },
+          "hash" : "1e48256a2341047e7d72",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2014-0050 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2014-0050",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2014-0050 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2014-0050",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.2.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "5bcf609959a94d138bd2e2930101dd96",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "commons-fileupload",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "commons-fileupload",
+              "version" : "1.2.2"
+            }
+          },
+          "hash" : "1e48256a2341047e7d72",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-3092 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-3092",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-3092 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-3092",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "commons-fileupload"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.2.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "45ae83ca037042ca89265a009a81610e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-security-core",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework.security",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "493bc57396a821e8ffa7",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2019-11272 with severity >= 7 (severity = 7.3)",
+              "reference" : {
+                "value" : "CVE-2019-11272",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2019-11272 with severity < 9 (severity = 7.3)",
+              "reference" : {
+                "value" : "CVE-2019-11272",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework.security"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-security-core"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "fe560b5521824e9f81ff0664d4cc3a01",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "jstl",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "javax.servlet",
+              "version" : "1.2"
+            }
+          },
+          "hash" : "74aca283cd4f4b4f3e42",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2015-0254 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2015-0254",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2015-0254 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2015-0254",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "javax.servlet"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "jstl"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "0ea139876fc6499f8b7fb237eca938fb",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "axis",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "axis",
+              "version" : "1.2"
+            }
+          },
+          "hash" : "892c772f7c486b3c09d2",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2019-0227 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2019-0227",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2019-0227 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2019-0227",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "axis"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "axis"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "10816cb8ed764249a893f05e34634d44",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-web",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "8daf0bd1172cb253d936",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2014-0225 with severity >= 7 (severity = 8.8)",
+              "reference" : {
+                "value" : "CVE-2014-0225",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2014-0225 with severity < 9 (severity = 8.8)",
+              "reference" : {
+                "value" : "CVE-2014-0225",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "87b55c8f6db6408f89e334a56b9ccf42",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-web",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "8daf0bd1172cb253d936",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2018-1272 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-1272",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2018-1272 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2018-1272",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-web"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "f9bec0b98d2548b0a80af0e5e266def5",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-security-config",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework.security",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "952da051fc959b215c8e",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-5007 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-5007",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-5007 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-5007",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework.security"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-security-config"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "d845844d3b314e7ca3d5c8b967e18692",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-webmvc",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "99c0303b36c421b3c43d",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2015-5211 with severity >= 7 (severity = 8.6)",
+              "reference" : {
+                "value" : "CVE-2015-5211",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2015-5211 with severity < 9 (severity = 8.6)",
+              "reference" : {
+                "value" : "CVE-2015-5211",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-webmvc"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "62f0a05aa7274862a12c7afd96f6145d",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "spring-webmvc",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "org.springframework",
+              "version" : "3.2.4.RELEASE"
+            }
+          },
+          "hash" : "99c0303b36c421b3c43d",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2016-9878 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-9878",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2016-9878 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2016-9878",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "org.springframework"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "spring-webmvc"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "3.2.4.RELEASE"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "818644aec1c44559b6d2244b95610146",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "standard",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "apache-taglibs",
+              "version" : "1.1.2"
+            }
+          },
+          "hash" : "a17e8a4d9a1f7fcc5eed",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2015-0254 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2015-0254",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2015-0254 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2015-0254",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "apache-taglibs"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "standard"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.1.2"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "f8fbba55ad114dffa317aab04723fc7e",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "commons-beanutils",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "commons-beanutils",
+              "version" : "1.6"
+            }
+          },
+          "hash" : "ed3c2b07d1b16ec11440",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability CVE-2014-0114 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2014-0114",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability CVE-2014-0114 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "CVE-2014-0114",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "commons-beanutils"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "commons-beanutils"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "1.6"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    }, {
+      "trigger" : {
+        "policyId" : "a2f4fe5b6f944981b0e2b530879ea4c7",
+        "policyName" : "Security-High",
+        "threatLevel" : 9,
+        "policyViolationId" : "ca01bfb2c615494aa3ce8569e4aea4f6",
+        "componentFacts" : [ {
+          "componentIdentifier" : {
+            "format" : "maven",
+            "coordinates" : {
+              "artifactId" : "jackson-core",
+              "classifier" : "",
+              "extension" : "jar",
+              "groupId" : "com.fasterxml.jackson.core",
+              "version" : "2.0.4"
+            }
+          },
+          "hash" : "fda2057c7eafd65915de",
+          "constraintFacts" : [ {
+            "constraintId" : "8e09af90233a41b2a176fd3ea7f5cb62",
+            "constraintName" : "High risk CVSS score",
+            "operatorName" : "AND",
+            "conditionFacts" : [ {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity >= 7",
+              "reason" : "Found security vulnerability sonatype-2017-0355 with severity >= 7 (severity = 7.5)",
+              "reference" : {
+                "value" : "sonatype-2017-0355",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            }, {
+              "conditionTypeId" : "SecurityVulnerabilitySeverity",
+              "conditionIndex" : 0,
+              "summary" : "Security Vulnerability Severity < 9",
+              "reason" : "Found security vulnerability sonatype-2017-0355 with severity < 9 (severity = 7.5)",
+              "reference" : {
+                "value" : "sonatype-2017-0355",
+                "type" : "SECURITY_VULNERABILITY_REFID"
+              },
+              "triggerJson" : null
+            } ]
+          } ],
+          "pathnames" : [ ],
+          "displayName" : {
+            "parts" : [ {
+              "field" : "Group",
+              "value" : "com.fasterxml.jackson.core"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Artifact",
+              "value" : "jackson-core"
+            }, {
+              "value" : " : "
+            }, {
+              "field" : "Version",
+              "value" : "2.0.4"
+            } ]
+          }
+        } ]
+      },
+      "actions" : [ {
+        "actionTypeId" : "fail",
+        "target" : null
+      } ]
+    } ],
+    "affectedComponentCount" : 20,
+    "criticalComponentCount" : 19,
+    "severeComponentCount" : 0,
+    "moderateComponentCount" : 1,
+    "criticalPolicyViolationCount" : 45,
+    "severePolicyViolationCount" : 29,
+    "moderatePolicyViolationCount" : 2,
+    "grandfatheredPolicyViolationCount" : 128
+  }
+}
